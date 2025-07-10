@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional global overrides */
+body {
+  background-color: white;
+  color: #1f2937; /* same as Tailwind's text-gray-800 */
+}
