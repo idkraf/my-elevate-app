@@ -2,7 +2,7 @@
 
 A real estate web app built with **Next.js 15**, **TypeScript**, **Firebase**, and **Tailwind CSS**.
 
-This README includes all helper steps and setup we discussed.
+This README includes all helper steps and setup.
 
 ---
 
@@ -27,14 +27,14 @@ my-elevate-app/
 ```
 
 🚀 Getting Started
-git clone https://github.com/yourusername/my-elevate-app.git
+git clone https://github.com/idkraf/my-elevate-app.git
 cd my-elevate-app
 
 # Install dependencies
 npm install
 
 ```
-git clone https://github.com/yourusername/my-elevate-app.git
+git clone https://github.com/idkraf/my-elevate-app.git
 cd my-elevate-app
 ```
 
