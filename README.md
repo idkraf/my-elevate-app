@@ -8,7 +8,7 @@ This README includes all helper steps and setup we discussed.
 
 ## 📦 Project Structure
 
-```plaintext
+```
 my-elevate-app/
 ├── public/
 │   ├── images/
@@ -24,7 +24,7 @@ my-elevate-app/
 ├── tailwind.config.js
 ├── postcss.config.js
 └── tsconfig.json
-
+```
 
 🚀 Getting Started
 git clone https://github.com/yourusername/my-elevate-app.git
@@ -36,8 +36,10 @@ npm install
 ```
 git clone https://github.com/yourusername/my-elevate-app.git
 cd my-elevate-app
+```
 
 # Install dependencies
+```
 npm install
 ```
 
@@ -46,6 +48,7 @@ If you don’t have tailwind.config.js, run:
 ```
 npx tailwindcss init -p
 ```
+
 Edit tailwind.config.js:
 ```
 /** @type {import('tailwindcss').Config} */
@@ -59,6 +62,7 @@ module.exports = {
   plugins: [],
 }
 ```
+
 In src/styles/globals.css add:
 ```
 @tailwind base;
@@ -69,23 +73,26 @@ In src/styles/globals.css add:
 🔥 Firebase Setup
 - Place your Firebase config in src/lib/firebase.ts.
 - Use .env.local (do NOT commit this file):
+
 ```
 NEXT_PUBLIC_FIREBASE_API_KEY=your_key
 NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=your_project.firebaseapp.com
 NEXT_PUBLIC_FIREBASE_PROJECT_ID=your_project_id
 # etc.
 ```
-Tip: Use Firestore collections like /properties, /blogs, /settings.
+- Tip: Use Firestore collections like /properties, /blogs, /settings.
 
 🧰 ESLint & Prettier
 Run ESLint:
 ```
 npm run lint
 ```
+
 Format code with Prettier:
 ```
 npm run format
 ```
+
 If you need to (re)init ESLint:
 ```
 npm init @eslint/config@latest
